@@ -1,0 +1,28 @@
+====================ERROR 3/10/2023, 19:52:57=========================
+req: POST /upload body: {} 
+res: status: 400, {"error":"File not accepted","message":"Only images files are allowed","storageErrors":[]} 
+
+====================ERROR 3/10/2023, 19:55:08=========================
+req: POST /upload body: {} 
+res: status: 400, {"error":"File not accepted","message":"Only images files are allowed","storageErrors":[]} 
+
+====================ERROR 3/10/2023, 20:00:30=========================
+req: POST /upload body: {} 
+res: status: 400, {"error":"File not accepted","message":"Only images files are allowed","storageErrors":[]} 
+
+====================ERROR 3/10/2023, 20:01:25=========================
+req: POST /upload body: {} 
+res: status: undefined, {"name":"MulterError","message":"File too large","code":"LIMIT_FILE_SIZE","field":"avatar","storageErrors":[]} 
+
+====================ERROR 3/10/2023, 20:01:57=========================
+req: POST /upload body: {} 
+res: status: 400, {"error":"File not accepted","message":"Only images files are allowed","storageErrors":[]} 
+
+====================ERROR 3/10/2023, 21:44:15=========================
+req: POST /api/v1/users/login body: {"password":"Madrid1234$","email":"madrid888777@gmail.com"} 
+res: status: 401, {"error":"Email verification needed","message":"Look at your email messages for a verification email"} 
+
+====================ERROR 3/10/2023, 21:45:23=========================
+req: POST /api/v1/users/login body: {"password":"Madrid1234$","email":"luis8877@gmail.com"} 
+res: status: 401, {"error":"Email verification needed","message":"Look at your email messages for a verification email"} 
+

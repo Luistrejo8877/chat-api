@@ -1,0 +1,12 @@
+====================ERROR 2/10/2023, 19:07:19=========================
+req: POST /api/v1/users body: {"content":"hjdjakhkjdahjdaj","senderId":1} 
+res: status: 400, {"error":["No se incluye la propiedad firstname","El firstname no debe estar vacio","El valor del firstname debe ser string","La longitud del nombre de ser entre 2 y 50 caracteres","El firstname solo acepta letras","No se incluye la propiedad lastname","El lastname no debe estar vacio","El valor del lastname debe ser string","La longitud del apellido de ser entre 2 y 50 caracteres","El lastname solo acepta letras","La propiedad email no esta incluida","La propiedad email no debe estar vacia","La propiedad email debe ser string","La propiedad email no tiene el formato de correo","El email debe ser minimo 7 y máximo 50 caracteres","La propiedad password no esta incluida","La propiedad password no debe estar vacia","La propiedad email debe ser string","El password debe ser minimo 8 caracteres, una mayuscula, una minuscula"]} 
+
+====================ERROR 2/10/2023, 19:08:49=========================
+req: POST /api/v1/messages/conversation/:id body: {"content":"hjdjakhkjdahjdaj","senderId":1} 
+res: status: 401, {"message":"No authorization header"} 
+
+====================ERROR 2/10/2023, 19:27:55=========================
+req: GET /api/v1/messages/conversation/:id body: {} 
+res: status: 401, {"message":"No authorization header"} 
+
